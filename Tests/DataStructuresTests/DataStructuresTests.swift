@@ -1,11 +1,11 @@
 import XCTest
-@testable import swift_data_structures
+@testable import DataStructures
 
-final class swift_data_structuresTests: XCTestCase {
+final class DataStructuresTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(swift_data_structures().text, "Hello, World!")
+        XCTAssertEqual(DataStructures().text, "Hello, World!")
     }
 }
